@@ -9,12 +9,6 @@ int main()
     cout << "\t\t\t|    2 - Task_2            |" << endl;
     cout << "\t\t\t|    3 - Task_3            |" << endl;
     cout << "\t\t\t|    4 - Task_4            |" << endl;
-    cout << "\t\t\t|    5 - Task_5            |" << endl;
-    cout << "\t\t\t|    6 - Task_6            |" << endl;
-    cout << "\t\t\t|    7 - Task_7            |" << endl;
-    cout << "\t\t\t|    8 - Task_8            |" << endl;
-    cout << "\t\t\t|    9 - Task_9            |" << endl;
-    cout << "\t\t\t|    10 - Task_10          |" << endl;
     cout << "\t\t\t#>------------------------<#" << endl;
     cout << "\t\t\t|    Exit - 0              |" << endl;
     cout << "\t\t\t#>------------------------<#" << endl;
@@ -118,23 +112,107 @@ int main()
     }break;
     case 3:
     {
-        int start;
-        start = 1;
+        int level;
 
-        int i = start;
+        cout << "Lets check ur level";
+        cout << "\n1. First level";
+        cout << "\n2. Second level";
+        cout << "\n3. Third level\n";
+        cin >> level;
 
-        float result = 0;
-
-        int a = 0;
-
-        for (i; i <= 1000; i++)
+        if (level == 1)
         {
+            system("cls");
+            int taskF, taskS, taskT;
 
-            result += i;
-            a++;
+            cout << "2 + 2\n";
+            cin >> taskF;
+
+            system("cls");
+            cout << "7 + 5\n";
+            cin >> taskS;
+
+            system("cls");
+            cout << "4 + 20\n";
+            cin >> taskT;
+
+            if (taskF == 4 && taskS == 13 && taskT == 24)
+            {
+                cout << "Great! Level 1 = 3/3";
+                break;
+            }
+            else if (taskF == 4 && taskS == 13 || taskS == 13 && taskT == 24 || taskT == 24 && taskF == 4)
+            {
+                cout << "Good! Level 1 = 3/2";
+                break;
+            }
+            else
+            {
+                cout << "Amazing! Level 1 = bad";
+            }
         }
+        if (level == 2)
+        {
+            system("cls");
+            int taskF, taskS, taskT;
 
-        cout << "Result: " << result / a << endl;
+            cout << "4 * 4\n";
+            cin >> taskF;
+
+            system("cls");
+            cout << "12 % 3\n";
+            cin >> taskS;
+
+            system("cls");
+            cout << "20 * 2\n";
+            cin >> taskT;
+
+            if (taskF == 16 && taskS == 4 && taskT == 40)
+            {
+                cout << "Great! Level 2 = 3/3";
+                break;
+            }
+            else if (taskF == 16 && taskS == 4 || taskS == 4 && taskT == 40 || taskT == 40 && taskF == 16)
+            {
+                cout << "Good! Level 2 = 3/2";
+                break;
+            }
+            else
+            {
+                cout << "Amazing! Level 2 = bad";
+            }
+        }
+        if (level == 3)
+        {
+            system("cls");
+            int taskF, taskS, taskT;
+
+            cout << "-10 + 20\n";
+            cin >> taskF;
+
+            system("cls");
+            cout << "21 % 3\n";
+            cin >> taskS;
+
+            system("cls");
+            cout << "-20 - -15\n";
+            cin >> taskT;
+
+            if (taskF == 10 && taskS == 7 && taskT == -35)
+            {
+                cout << "Great! Level 3 = 3/3";
+                break;
+            }
+            else if (taskF == 10 && taskS == 7 || taskS == 7 && taskT == -35 || taskT == -35 && taskF == 7)
+            {
+                cout << "Good! Level 3 = 3/2";
+                break;
+            }
+            else
+            {
+                cout << "Amazing! Level 3 = bad";
+            }
+        }
 
     }break;
     case 4:
