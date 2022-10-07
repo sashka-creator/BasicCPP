@@ -217,31 +217,33 @@ int main()
     }break;
     case 4:
     {
-        long long p = 1;
+        int i, j, h  = 10;
+        int center = h / 2;
 
-        int a;
-        cin >> a;
-
-        for (int i = a; i <= 20; i++)
+        for (i = 0; i < h; i++)
         {
-            p *= i;
+            for (j = 0; j < h; j++)
+            {
+                if (i <= center)
+                {
+
+                    if (j >= center - i && j <= center + i)
+                        cout << "*";
+                    else
+                        cout << " ";
+                }
+                else
+                {
+
+                    if (j >= center + i - h + 1 && j <= center - i + h - 1)
+                        cout << "*";
+                    else
+                        cout << " ";
+                }
+            }
+            cout << endl;
         }
 
-        cout << p << endl;
-
-    }break;
-    case 5:
-    {
-        int num;
-        cout << "Number: ";
-        cin >> num;
-
-        int i = 0;
-
-        for (i; i < 10; i++)
-        {
-            cout << num << " x " << i << " = " << num * i << endl;
-        }
 
     }break;
     default:
