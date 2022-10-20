@@ -71,7 +71,7 @@ int main()
     }break;
     case 2:
     {
-        // Я не знаю як зробити цю задачу
+        // Ya ne znay yak roboty tsu zadachu
     }break;
     default:
     {
