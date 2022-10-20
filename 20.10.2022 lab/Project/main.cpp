@@ -71,7 +71,36 @@ int main()
     }break;
     case 2:
     {
-        // Ya ne znay yak roboty tsu zadachu
+        const int x = 6, y = 5;
+        int array[x][y] = {
+            {3,5,6,7},  // 0 row
+            {12,1,1,1},  // 1 row
+            {0,7,12,1},  // 2 row
+        };
+
+        for (int i = 0; i < y; i++) {
+            int row = i;
+            for (int j = 0; j < x; j++) {
+                int col = j;
+                if (row == 3) {
+                    cout << "\t" << "-";
+                }
+                else if (col == 4) {
+                    cout << "\t" << "|";
+                }
+                else if (col == 5) {
+                    cout << "\t" << array[row][0] + array[row][1] + array[row][2] + array[row][3];
+                }
+                else if (row == 4 && col < 5) {
+                    array[row][col] = array[0][col] + array[1][col] + array[2][col];
+                    cout << "\t" << array[row][col];
+                }
+                else {
+                    cout << "\t" << array[row][col];
+                }       
+            }
+            cout << endl;
+        }
     }break;
     default:
     {
