@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Sasha New\Desktop\16.10.2022 homework\Project\main.cpp(8,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\16.10.2022 homework\Project\main.cpp(16,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Project.vcxproj -> C:\Users\Sasha New\Desktop\16.10.2022 homework\x64\Debug\Project.exe
