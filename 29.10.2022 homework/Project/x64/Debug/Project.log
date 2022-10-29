@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(103,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(103,16): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(131,21): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(131,18): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(73,27): warning C4101: 'sum': unreferenced local variable
+  Project.vcxproj -> C:\Users\Sasha New\Desktop\25.10.2022 homework\x64\Debug\Project.exe
