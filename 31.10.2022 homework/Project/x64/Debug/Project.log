@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(150,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,17): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,20): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,23): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(177,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(109,24): warning C4101: 'arrT': unreferenced local variable
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(108,30): warning C4101: 'sum': unreferenced local variable
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(108,26): warning C4101: 'cc': unreferenced local variable
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(109,15): warning C4101: 'arrD': unreferenced local variable
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(108,18): warning C4101: 'aa': unreferenced local variable
+C:\Users\Sasha New\Desktop\25.10.2022 homework\Project\main.cpp(108,22): warning C4101: 'bb': unreferenced local variable
+  Project.vcxproj -> C:\Users\Sasha New\Desktop\25.10.2022 homework\x64\Debug\Project.exe
