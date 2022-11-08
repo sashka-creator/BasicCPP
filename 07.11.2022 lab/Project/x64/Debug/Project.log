@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Sasha New\Desktop\07.11.2022 homework — копия\Project\main.cpp(35,10): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\07.11.2022 homework — копия\Project\main.cpp(83,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Project.vcxproj -> C:\Users\Sasha New\Desktop\07.11.2022 homework — копия\x64\Debug\Project.exe
