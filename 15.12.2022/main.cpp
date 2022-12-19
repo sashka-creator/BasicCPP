@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -27,16 +28,13 @@ char* Uppercase(char* str1)
     return 0;
 }
 
-char* mystrrev(char* str)
+char * Lowercase (char * str1)
 {
-    char arr[] = "Engineering Discipline.";
+    char ch = tolower('A');
 
-    cout << "Original String:\n" << arr << endl;
-    cout << "String in UPPERCASE:\n";
-    for (int x = 0; x < strlen(arr); x++)
-        putchar(toupper(arr[x]));
+  cout << ch;
 
-    return 0;
+  return 0;
 }
 
 int main()
