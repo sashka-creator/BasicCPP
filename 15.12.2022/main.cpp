@@ -70,8 +70,10 @@ int main()
     }break;
     case 3:
     {
-        char str[] = "name";
-        cout << "SIZE = " << mystrrev(str) << endl;
+        char* str1 = new char [7] {"name"};
+        const char* str2 = "surname";
+        cout << "Str 1 = " << str1 << endl;
+        cout << "Str 2 = " << str2 << endl;
         return 0;
 
     }break;
