@@ -1,0 +1,7 @@
+﻿  func.cpp
+  main.cpp
+C:\Users\Sasha New\Desktop\+++\Step\29.01.2023 — копия\Project\main.cpp(27,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\+++\Step\29.01.2023 — копия\Project\main.cpp(47,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sasha New\Desktop\+++\Step\29.01.2023 — копия\Project\main.cpp(61,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Project.vcxproj -> C:\Users\Sasha New\Desktop\+++\Step\29.01.2023 — копия\x64\Debug\Project.exe
