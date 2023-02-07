@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Sasha New\Desktop\+++\Step\Game\Game\main.cpp(161,53): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  Game.vcxproj -> C:\Users\Sasha New\Desktop\+++\Step\Game\x64\Debug\Game.exe
